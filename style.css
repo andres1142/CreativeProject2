@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction:  column;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin: 0;
+    width: 393px;
+
+}
+
+.footer, .header_title{
+    width: auto;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        width: 100%;
+    }
+}
