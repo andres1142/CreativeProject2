@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction:  column;
     background-color: antiquewhite;
-    overflow: hidden;
     margin: 0;
     width: 393px;
 
@@ -44,9 +43,14 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 30px;
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    border: 3px solid black;
+    font-size: 35px;
 }
-
+#quote_holder {
+    display: none;
+}
 
 .footer, .header_title{
     width: auto;

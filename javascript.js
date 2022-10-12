@@ -29,6 +29,7 @@ function onClick(e){
 
             removeAllChildNodes(quote_holder)
             quote_holder.append(quote,author)
+            quote_holder.style.display = "block";
 
         })
         .catch(err => console.log(err))
