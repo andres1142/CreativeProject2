@@ -8,6 +8,46 @@ body {
 
 }
 
+header{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 30px;
+    margin: 7% 5% 7% 3%;
+}
+
+
+.header_title {
+    padding-top: 25px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+.button_option {
+    background-color: #e7e7e7;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#quote_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
 .footer, .header_title{
     width: auto;
     height: 100px;
